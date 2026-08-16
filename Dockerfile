@@ -9,24 +9,19 @@ COPY public public
 RUN npm run build
 
 # ---- Stage 2: PHP app served by nginx + php-fpm ----
-# This image auto-runs `composer install`, generates APP_KEY if missing,
-# and runs `php artisan migrate --force` on every container boot.
-FROM richarvey/nginx-php-fpm:php8.3
+FROM serversideup/php:8.3-fpm-nginx
 
-COPY . .
-COPY --from=assets /app/public/build ./public/build
-
-# --- Image runtime config ---
-ENV SKIP_COMPOSER=0
-ENV WEBROOT=/var/www/html/public
-ENV PHP_ERRORS_STDERR=1
-ENV RUN_SCRIPTS=1
-ENV REAL_IP_HEADER=1
-ENV COMPOSER_ALLOW_SUPERUSER=1
-
-# --- Laravel config ---
+ENV PHP_OPCACHE_ENABLE=1
 ENV APP_ENV=production
 ENV APP_DEBUG=false
 ENV LOG_CHANNEL=stderr
 
-CMD ["/start.sh"]
+# Automatically runs migrations, storage:link, and caches config on boot
+ENV AUTORUN_ENABLED=true
+
+USER root
+COPY --chown=www-data:www-data . /var/www/html
+COPY --from=assets --chown=www-data:www-data /app/public/build /var/www/html/public/build
+USER www-data
+
+RUN composer install --no-interaction --optimize-autoloader --no-dev
