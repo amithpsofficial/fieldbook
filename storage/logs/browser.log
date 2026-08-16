@@ -1,0 +1,82 @@
+[2026-07-23 20:24:05] local.DEBUG: [vite] server connection lost. Polling for restart... {"url":"http://fieldbook.test/login","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-23T20:24:05.248Z"} 
+[2026-07-23 20:24:05] local.DEBUG: [vite] server connection lost. Polling for restart... {"url":"http://fieldbook.test/dashboard","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-23T20:24:05.247Z"} 
+[2026-07-23 20:32:54] local.DEBUG: [vite] server connection lost. Polling for restart... {"url":"http://fieldbook.test/forgot-password","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-23T20:32:54.258Z"} 
+[2026-07-23 20:47:25] local.DEBUG: [vite] server connection lost. Polling for restart... {"url":"http://fieldbook.test/login","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-23T20:47:25.162Z"} 
+[2026-07-23 20:47:33] local.DEBUG: [vite] server connection lost. Polling for restart... {"url":"http://fieldbook.test/login","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-23T20:47:33.295Z"} 
+[2026-07-23 21:23:01] local.DEBUG: 🔍 Browser logger active (MCP server detected). Posting to: http://fieldbook.test/_boost/browser-logs {"url":"http://fieldbook.test/dashboard","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-23T21:23:01.512Z"} 
+[2026-07-23 21:23:41] local.DEBUG: 🔍 Browser logger active (MCP server detected). Posting to: http://fieldbook.test/_boost/browser-logs {"url":"http://fieldbook.test/dashboard","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-23T21:23:41.503Z"} 
+[2026-07-25 09:04:36] local.WARNING: Alpine Expression Error: Illegal invocation
+
+Expression: "open" null null null 120 center 0s opacity, transform 0.15s cubic-bezier(0.4, 0.0, 0.2, 1) 0 scale(0.95) 1 scale(1) center 0s opacity, transform 0.075s cubic-bezier(0.4, 0.0, 0.2, 1) 1 scale(1) 0 scale(0.95) null {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:35.846Z"} 
+[2026-07-25 09:04:36] local.ERROR: Uncaught TypeError: Illegal invocation http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980 410 3 TypeError Illegal invocation TypeError: Illegal invocation
+    at runIfTypeOfFunction (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:491:22)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:481:5
+    at tryCatch (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:389:10)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:16
+    at reactiveEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1633:12)
+    at Object.effect2 [as effect] (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1613:21)
+    at effect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:56:32)
+    at wrappedEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:68:25)
+    at Function.<anonymous> (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:2)
+    at flushHandlers (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:572:89) {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:35.850Z"} 
+[2026-07-25 09:04:36] local.ERROR: Uncaught TypeError: Illegal invocation http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980 410 3 TypeError Illegal invocation TypeError: Illegal invocation
+    at runIfTypeOfFunction (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:491:22)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:481:5
+    at tryCatch (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:389:10)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:16
+    at reactiveEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1633:12)
+    at Object.effect2 [as effect] (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1613:21)
+    at effect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:56:32)
+    at wrappedEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:68:25)
+    at Function.<anonymous> (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:2)
+    at flushHandlers (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:572:89) {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:35.850Z"} 
+[2026-07-25 09:04:51] local.WARNING: Alpine Expression Error: Illegal invocation
+
+Expression: "open" null null null 140 center 0s opacity, transform 0.15s cubic-bezier(0.4, 0.0, 0.2, 1) 0 scale(0.95) 1 scale(1) center 0s opacity, transform 0.075s cubic-bezier(0.4, 0.0, 0.2, 1) 1 scale(1) 0 scale(0.95) null {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:51.288Z"} 
+[2026-07-25 09:04:51] local.ERROR: Uncaught TypeError: Illegal invocation http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980 410 3 TypeError Illegal invocation TypeError: Illegal invocation
+    at runIfTypeOfFunction (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:491:22)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:481:5
+    at tryCatch (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:389:10)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:16
+    at reactiveEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1633:12)
+    at Object.effect2 [as effect] (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1613:21)
+    at effect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:56:32)
+    at wrappedEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:68:25)
+    at Function.<anonymous> (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:2)
+    at flushHandlers (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:572:89) {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:51.292Z"} 
+[2026-07-25 09:04:51] local.ERROR: Uncaught TypeError: Illegal invocation http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980 410 3 TypeError Illegal invocation TypeError: Illegal invocation
+    at runIfTypeOfFunction (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:491:22)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:481:5
+    at tryCatch (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:389:10)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:16
+    at reactiveEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1633:12)
+    at Object.effect2 [as effect] (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1613:21)
+    at effect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:56:32)
+    at wrappedEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:68:25)
+    at Function.<anonymous> (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:2)
+    at flushHandlers (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:572:89) {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:51.292Z"} 
+[2026-07-25 09:04:58] local.WARNING: Alpine Expression Error: Illegal invocation
+
+Expression: "open" null null null 139 center 0s opacity, transform 0.15s cubic-bezier(0.4, 0.0, 0.2, 1) 0 scale(0.95) 1 scale(1) center 0s opacity, transform 0.075s cubic-bezier(0.4, 0.0, 0.2, 1) 1 scale(1) 0 scale(0.95) null {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:58.691Z"} 
+[2026-07-25 09:04:58] local.ERROR: Uncaught TypeError: Illegal invocation http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980 410 3 TypeError Illegal invocation TypeError: Illegal invocation
+    at runIfTypeOfFunction (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:491:22)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:481:5
+    at tryCatch (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:389:10)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:16
+    at reactiveEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1633:12)
+    at Object.effect2 [as effect] (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1613:21)
+    at effect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:56:32)
+    at wrappedEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:68:25)
+    at Function.<anonymous> (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:2)
+    at flushHandlers (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:572:89) {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:58.694Z"} 
+[2026-07-25 09:04:58] local.ERROR: Uncaught TypeError: Illegal invocation http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980 410 3 TypeError Illegal invocation TypeError: Illegal invocation
+    at runIfTypeOfFunction (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:491:22)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:481:5
+    at tryCatch (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:389:10)
+    at http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:16
+    at reactiveEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1633:12)
+    at Object.effect2 [as effect] (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:1613:21)
+    at effect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:56:32)
+    at wrappedEffect (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:68:25)
+    at Function.<anonymous> (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:2683:2)
+    at flushHandlers (http://[::1]:5173/node_modules/.vite/deps/alpinejs.js?v=a4672980:572:89) {"url":"http://fieldbook.test/labour-expenses","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0","timestamp":"2026-07-25T09:04:58.694Z"} 
