@@ -2,7 +2,7 @@
 FROM node:20-alpine AS assets
 WORKDIR /app
 COPY package.json package-lock.json ./
-RUN npm ci
+RUN npm install --no-audit --no-fund
 COPY vite.config.js postcss.config.js ./
 COPY resources resources
 COPY public public
